@@ -9,7 +9,7 @@ Automation suite made with Cypress
 ## Running it
 Go to the root directory of this project and install packages with ```npm install```
 Run ```npx cypress open``` to launch the Cypress Test Runner, select E2E Testing and Chrome as the browser to launch the test suite.
-Run ```npx allure generate allure-results --clean -o allure-report npx allure open allure-report```  to run the test case with Allure and visualize a more categorized view of the test cases
+Run ```npx allure generate allure-results --clean -o allure-report``` ```npx allure open allure-report```  to run the test case with Allure and visualize a more categorized view of the test cases
 
 ## Achieved Scope
 The project includes :

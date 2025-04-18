@@ -1,5 +1,14 @@
 # DemoQA Testing Suggested Improvements
 
+## Code Improvements
+
+### Break down the page controllers 
+
+The elementsPageController.js page was starting to get really bloated, it would be a good idea to break it down into separate page object models for each component type, one for elements, one for windows, one for alerts, will be easier to maintain and to read.
+
+### Naming convention
+The naming convention picked was camel case, but it could be easier to read with snake case, also methods could probably use some more descriptive but brief names
+
 ## CI/CD Pipeline Integration
 
 A CI/CD pipeline that automatically runs tests when code changes are pushed to the repository, would speed up bug catching and issues could be fixed earlier, make test results available for the entire team, and it would guarantee tests are run in a standardized environment.

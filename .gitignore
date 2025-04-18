@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Cypress Generated
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/results/
+
+# Environment Files
+.env
+.env.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

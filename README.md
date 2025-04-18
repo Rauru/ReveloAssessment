@@ -24,3 +24,5 @@ The project includes :
 - Radio button test cases
 - Check boxes test cases
 - Basic test cases for new windows and alets
+
+### Execution analysis, improvements document and the design approach documents are all inside the documents folder.
